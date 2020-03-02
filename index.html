@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WYH2004</title>
+<link href="static\32.png" rel="icon" sizes="32x32">
+<link href="static\192.png" rel="icon" sizes="192x192">
+<link href="static\paul.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<script data-cfasync="false" type="text/javascript">
+    var bodyBgs = [];
+    bodyBgs[0] = "http://file.wyh2004.top/background/01.jpg";
+    bodyBgs[1] = "http://file.wyh2004.top/background/02.jpg";
+    bodyBgs[2] = "http://file.wyh2004.top/background/03.jpg";
+    bodyBgs[3] = "http://file.wyh2004.top/background/04.jpg";
+    bodyBgs[4] = "http://file.wyh2004.top/background/05.jpg";
+	bodyBgs[5] = "http://file.wyh2004.top/background/06.jpg";
+ 
+    var randomBgIndex = Math.round( Math.random() * 5 );
+ 
+	document.write('<style>body{background-image:url(' + bodyBgs[randomBgIndex] + ')</style>');
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ea91df5c1e3c9e9b1e43093f5d98a56e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<style>
+#articles span.title {
+    width: 210px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+section#products.active,section#about.active{
+    display: flex;
+}
+.center-span{
+margin: auto;
+text-align:center;
+    font-size: 1.8em;
+    color: #b7b7b7;
+}
+</style>
+</head>
+
+<div id="loader">
+	<figure>
+		<img src="static\avatar.png">
+	</figure>
+</div>
+
+<main>
+	<div class="content">
+	<figure class="me">
+		<img class="avatar" src="static\avatar.png">
+		<h2 class="name">WYH2004</h2>
+	</figure>
+
+	<section id="main" class="active">
+		<a href="https://blog.wyh2004.top"><i class="fa fa-home"></i><span class="title">博客</span></a>
+		<a href="https://play.wyh2004.top" target="_blank"><i class="fa fa-server"></i><span class="title">MC服务器</span></a>
+		<a href="https://jq.qq.com/?_wv=1027&k=5zN9niS" target="_blank"><i class="fa fa-qq"></i><span class="title">闲聊鹅群
+		</span></a>
+		<a href="https://music.163.com/#/user/home?id=607331909" target="_blank"><i class="fa fa-music"></i><span class="title">网易云</span></a>
+		<a href="https://space.bilibili.com/94181697" target="_blank"><i class="fa fa-tv"></i><span class="title">哔哩哔哩</span></a>
+		<a href="https://github.com/VIPWYH2004/" target="_blank"><i class="fa fa-github"></i><span class="title">GitHub</span></a>
+	</section>
+	</div>
+</main>
+
+<footer>
+<p>© 2020 By <a href="index.html">WYH2004</a>.</p>
+</footer>
+<script data-cfasync="false" src="static\paul.js"></script>
+</body>
+</html>
